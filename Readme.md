@@ -74,7 +74,7 @@ To train a detector with Stable diffusion v1.4, we can only use Stable Diffusion
 │   │   ├── ai
 │   │   ├── nature
 ```
-All the images in the generator foloder should be put into the corresponding folder in imagenet_ai. For example, the images in Midjourney/train/ai should be put into imagenet_ai/train/ai. The images in VQDM/val/nature should be put into imagenet_ai/val/nature. Then we can train a binary classifier for the dataset. A typical example is training a ResNet-50 with Timm Library and 2 GPU. 
+All the images in the generator folder should be put into the corresponding folder in imagenet_ai. For example, the images in Midjourney/train/ai should be put into imagenet_ai/train/ai. The images in VQDM/val/nature should be put into imagenet_ai/val/nature. Then we can train a binary classifier for the dataset. A typical example is training a ResNet-50 with Timm Library and 2 GPU. 
 
 ```
 sh ./distributed_train.sh 2 /cache/imagenet_ai/ -b 64 --model resnet50 --sched cosine --epochs 200 --lr 0.05 --amp --remode pixel --reprob 0.6 --aug-splits 3 --aa rand-m9-mstd0.5-inc1 --resplit --jsd --dist-bn reduce --num-classes 2
