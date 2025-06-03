@@ -1,0 +1,4 @@
+./imagenet_ai_0419_biggan/train/ai/116_biggan_00094.png
+./imagenet_ai_0419_biggan/train/ai/116_biggan_00081.png
+./imagenet_ai_0419_biggan/train/ai/116_biggan_00107.png
+./imagenet_ai_0419_biggan/train/ai/116_biggan_00098.png

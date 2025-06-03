@@ -1,0 +1,6 @@
+./imagenet_ai_0508_adm/train/ai/115_adm_141.PNG
+./imagenet_ai_0508_adm/train/ai/115_adm_135.PNG
+./imagenet_ai_0508_adm/train/ai/115_adm_156.PNG
+./imagenet_ai_0508_adm/train/ai/115_adm_154.PNG
+./imagenet_ai_0508_adm/train/ai/115_adm_164.PNG
+./imagenet_ai_0508_adm/train/ai/115_adm_142.PNG
